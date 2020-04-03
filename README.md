@@ -1,5 +1,5 @@
 # lel-mall
-  spring Cloud Alibaba、rabbitmq、es等微服务常用框架的入门学习。
+  spring Cloud Alibaba、rabbitmq、es、redis等微服务常用框架的入门学习教程。
 
 当前进度：
   目录     | 对应教程(进入目录有具体教程/代码哦！)
