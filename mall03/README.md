@@ -1,4 +1,3 @@
-@[TOC]
 
 ## 一、Sentinel是什么？
   Sentinel是**分布式系统的流量防卫兵**！  
@@ -111,3 +110,8 @@ public class TestController {
 **Sentinel的功能很强大，不只是可以对接口进行限制，还可以让超出限制的请求去调用本地的‘失败专用接口’。**
 
   对接口的限制是在保护节点不会被流量或是压力打死，而后续的‘失败专用接口’则是关乎用户体验的命脉，这一部分以及规则持久化我们下一章再来介绍。
+
+## 五、demo 地址
+ *注意：如果不使用nacos请去除pom中nacos相关依赖、将bootstrap.properties变更为application.properties并添加server.port属性。*
+ [https://github.com/flyChineseBoy/lel-mall/tree/master/mall03](https://github.com/flyChineseBoy/lel-mall/tree/master/mall03)
+  这里正在完善一个从零开始的基于SpringCloud Alibaba的电商系统，有兴趣就来点个star吧！
