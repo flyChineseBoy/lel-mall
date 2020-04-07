@@ -1,4 +1,5 @@
 
+
 ## 一、Sentinel是什么？
   Sentinel是**分布式系统的流量防卫兵**！  
  
@@ -94,7 +95,7 @@ public class TestController {
 ### 降级规则
   降级规则则是从 服务响应时间、接口异常次数、接口异常频率来评估接口，若响应过慢，或异常次数过多，则对接口进行降级。
  
- 如：test接口被限制为只要在3秒内异常2次就进行服务降级，测试代码及dashboard配置如下。
+ 如：test接口被限制为1分钟内异常2次就进行服务降级，服务降级3秒。测试代码及dashboard配置如下。
  
 
 ```java
@@ -106,12 +107,14 @@ public class TestController {
 ```
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200406231727561.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1OTQ2OTY5,size_16,color_FFFFFF,t_70)
-## 其他
+## 五、其他
 **Sentinel的功能很强大，不只是可以对接口进行限制，还可以让超出限制的请求去调用本地的‘失败专用接口’。**
 
   对接口的限制是在保护节点不会被流量或是压力打死，而后续的‘失败专用接口’则是关乎用户体验的命脉，这一部分以及规则持久化我们下一章再来介绍。
 
-## 五、demo 地址
- *注意：如果不使用nacos请去除pom中nacos相关依赖、将bootstrap.properties变更为application.properties并添加server.port属性。*
+## 六、demo 地址
+ *注意：如果不使用nacos请去除pom中nacos相关依赖、将bootstrap.properties变更为application.properties并添加server.port属性。*  
+
  [https://github.com/flyChineseBoy/lel-mall/tree/master/mall03](https://github.com/flyChineseBoy/lel-mall/tree/master/mall03)
+
   这里正在完善一个从零开始的基于SpringCloud Alibaba的电商系统，有兴趣就来点个star吧！
