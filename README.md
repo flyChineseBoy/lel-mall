@@ -1,5 +1,7 @@
 # lel-mall
   spring Cloud Alibaba、rabbitmq、es、redis等微服务常用框架的入门学习教程。
+  
+  若github图片无法查看，建议到gitee查看本项目：[https://gitee.com/lele_fly/lel-mall](https://gitee.com/lele_fly/lel-mall)
 
 当前进度：
   目录     | 对应教程(进入目录有具体教程/代码哦！)  
