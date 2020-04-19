@@ -13,3 +13,4 @@ mall03  | [从零开始SpringCloud Alibaba电商系统(三)——Sentinel流量�
 mall04  | [从零开始SpringCloud Alibaba电商系统(四)——Sentinel的fallback和blockHandler介绍](https://github.com/flyChineseBoy/lel-mall/tree/master/mall04)
 mall05  | [从零开始SpringCloud Alibaba电商系统(五)——Feign Demo，Sentinel+Feign实现多节点间熔断/服务降级](https://github.com/flyChineseBoy/lel-mall/tree/master/mall05)
 mall06  | [从零开始SpringCloud Alibaba电商系统(六)——Sentinel规则持久化到Nacos配置中心](https://github.com/flyChineseBoy/lel-mall/tree/master/mall06)
+mall07  | [从零开始SpringCloud Alibaba电商系统(七)——Spring Security实现登录认证、权限控制](https://github.com/flyChineseBoy/lel-mall/tree/master/mall07)
