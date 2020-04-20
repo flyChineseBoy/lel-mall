@@ -144,6 +144,6 @@ hidden–隐藏
 
 
 ## 五、demo地址
-[https://github.com/flyChineseBoy/lel-mall/tree/master/mall08](https://github.com/flyChineseBoy/lel-mall/tree/master/mall07)
+[https://github.com/flyChineseBoy/lel-mall/tree/master/mall08](https://github.com/flyChineseBoy/lel-mall/tree/master/mall08)
 
 下一节，我们继续来看Spring Security分布式场景下的应用。
