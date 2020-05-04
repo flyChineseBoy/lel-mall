@@ -44,7 +44,7 @@ public class SimpleSecurityConfig extends WebSecurityConfigurerAdapter {
                     .permitAll()
                     .and()
                 .authorizeRequests()
-                    .antMatchers("/test/*","/order/*") // 放行swagger
+                    .antMatchers("/test/*","/order/*")
                     .authenticated();
         }
 
