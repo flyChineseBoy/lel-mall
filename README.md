@@ -17,3 +17,4 @@ mall07  | [从零开始SpringCloud Alibaba电商系统(七)——Spring Security
 mall08  | [从零开始SpringCloud Alibaba电商系统(八)——用一个好看的Swagger接口文档](https://github.com/flyChineseBoy/lel-mall/tree/master/mall08)
 mall09  | [从零开始SpringCloud Alibaba电商系统(九)——基于Spring Security OAuth2实现SSO-认证服务器（非JWT）](https://github.com/flyChineseBoy/lel-mall/tree/master/mall09)
 mall10  | [从零开始SpringCloud Alibaba电商系统(十)——基于Redis Session的认证鉴权](https://github.com/flyChineseBoy/lel-mall/tree/master/mall10) 
+mall11  |[从零开始SpringCloud Alibaba电商系统(十一)——spring security完善之动态url控制](https://github.com/flyChineseBoy/lel-mall/tree/master/mall11)
