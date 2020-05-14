@@ -1,7 +1,7 @@
 # lel-mall
   spring Cloud Alibaba、rabbitmq、es、redis等微服务常用框架的入门学习教程。
   
-  若github图片无法查看，建议到gitee查看本项目：[https://gitee.com/lele_fly/lel-mall](https://gitee.com/lele_fly/lel-mall)
+  若github图片无法查看，可到gitee查看本项目：[https://gitee.com/lele_fly/lel-mall](https://gitee.com/lele_fly/lel-mall)
 
 当前进度：  
 
@@ -18,3 +18,5 @@ mall08  | [从零开始SpringCloud Alibaba电商系统(八)——用一个好看
 mall09  | [从零开始SpringCloud Alibaba电商系统(九)——基于Spring Security OAuth2实现SSO-认证服务器（非JWT）](https://github.com/flyChineseBoy/lel-mall/tree/master/mall09)
 mall10  | [从零开始SpringCloud Alibaba电商系统(十)——基于Redis Session的认证鉴权](https://github.com/flyChineseBoy/lel-mall/tree/master/mall10) 
 mall11  |[从零开始SpringCloud Alibaba电商系统(十一)——spring security完善之动态url控制](https://github.com/flyChineseBoy/lel-mall/tree/master/mall11)
+mall11  |[从零开始SpringCloud Alibaba电商系统(十二)——spring aop记录用户操作日志](https://github.com/flyChineseBoy/lel-mall/tree/master/mall11)
+
