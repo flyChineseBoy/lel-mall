@@ -20,3 +20,4 @@ mall10  | [从零开始SpringCloud Alibaba电商系统(十)——基于Redis Ses
 mall11  |[从零开始SpringCloud Alibaba电商系统(十一)——spring security完善之动态url控制](https://github.com/flyChineseBoy/lel-mall/tree/master/mall11)
 mall12  |[从零开始SpringCloud Alibaba电商系统(十二)——spring aop记录用户操作日志](https://github.com/flyChineseBoy/lel-mall/tree/master/mall12)
 mall13  |[从零开始SpringCloud Alibaba电商系统(十三)——ElasticSearch介绍、logback写入ES](https://github.com/flyChineseBoy/lel-mall/tree/master/mall3)
+mall14  |[从零开始SpringCloud Alibaba电商系统(十四)——简单商品模块需求、使用ElasticSearch构建商品搜索](https://github.com/flyChineseBoy/lel-mall/tree/master/mall4)
