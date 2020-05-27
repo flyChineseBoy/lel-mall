@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="false" scanPeriod="60 seconds" debug="false">
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %5p %40.40c:%4L - %m%n</pattern>
+        </encoder>
+    </appender>
+
+	<appender name="elasticAppender" class="org.lele.common.log.ElasticsearchAppender">
+	</appender>
+
+
+	<root level="INFO">
+		<appender-ref ref="console"/>
+		<appender-ref ref="elasticAppender"/>
+	</root>
+
+</configuration>

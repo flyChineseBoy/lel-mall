@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lele.authorization.dao.MPermissionDao">
+    <sql id="FIELDS">
+        m_permission.id,m_permission.parent_id,m_permission.name,m_permission.enname,m_permission.url,
+        m_permission.description,m_permission.created,m_permission.updated
+    </sql>
+
+    <select id="selectPermissionByUserId" parameterType="long" resultType="org.lele.common.entity.MPermission">
+      SELECT
+        <include refid="FIELDS" />
+      FROM m_user_role
+      LEFT JOIN m_role_permission ON mall_user.m_user_role.role_id = mall_user.m_role_permission.role_id
+      LEFT JOIN m_permission ON mall_user.m_role_permission.permission_id = mall_user.m_permission.id
+      WHERE mall_user.m_user_role.user_id = #{userid}
+    </select>
+
+</mapper>

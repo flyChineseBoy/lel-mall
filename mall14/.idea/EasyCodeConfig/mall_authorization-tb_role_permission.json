@@ -1,0 +1,31 @@
+{
+  "name" : "TbRolePermission",
+  "comment" : "角色权限表",
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "roleId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "permissionId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "org.lele.authorizationcenter",
+  "savePath" : "./authorization-center/src/main/java/org/lele/authorizationcenter",
+  "saveModelName" : "authorization-center"
+}

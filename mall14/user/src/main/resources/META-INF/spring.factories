@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.lele.common.config.MybatisPlusConfig,\
+  org.lele.common.config.RedisConfig,\
+  org.lele.common.config.Swagger2Config,\
+  org.lele.common.config.WebSecurityConfiguration,\
+  org.lele.common.config.JPAConfig,\
+  org.lele.common.config.BeanConfiguration,\
+  org.lele.common.config.OtherConfiguration
