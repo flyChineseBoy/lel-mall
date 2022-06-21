@@ -24,7 +24,7 @@
         <swagger-bootstrap-ui.version>1.8.1</swagger-bootstrap-ui.version>
         <flydb.version>5.0.3</flydb.version>
         <druid.version>1.1.10</druid.version>
-        <mysql-connector-java.version>5.1.46</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <mybatis-plus.version>3.1.1</mybatis-plus.version>
     </properties>
 
